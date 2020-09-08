@@ -8,7 +8,7 @@ function loadInicis(platform: 'mobile' | 'desktop', formId?: string) {
   ) {
     const head = document.querySelector('head');
     const findScript = document.querySelector(
-      `script[mrt-script-name=${name}]`,
+      `script[use-inicis-script-name=${name}]`,
     );
 
     if (head && !findScript) {
@@ -27,7 +27,7 @@ function loadInicis(platform: 'mobile' | 'desktop', formId?: string) {
   }
 
   addScript(
-    'mrt-inicis',
+    'inicis',
     {
       language: 'javascript',
       type: 'text/javascript',
