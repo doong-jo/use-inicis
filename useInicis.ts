@@ -52,13 +52,13 @@ export enum INICIS_OPTIONS_PLATFORM {
   DESKTOP = 'desktop',
 }
 
-interface InicisOptionsType {
+export interface InicisOptions {
   platform: INICIS_OPTIONS_PLATFORM;
   formId?: string;
 }
 
 export default function useInicis<T>(
-  { platform, formId }: InicisOptionsType,
+  { platform, formId }: InicisOptions,
   pgRequestParameters: any,
 ) {
   const [inicisFormData, setInicisFormData] = useState<T>();
