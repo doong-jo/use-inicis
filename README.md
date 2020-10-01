@@ -1,4 +1,6 @@
 # use-inicis
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/doong-jo/use-inicis/blob/main/LICENSE) [![npm version](https://img.shields.io/npm/v/use-inicis.svg?style=flat)](https://www.npmjs.com/package/use-inicis)
+
 A INICIS hook for React
 
 - Official manual: https://www.inicis.com/ini-manual
