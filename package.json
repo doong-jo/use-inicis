@@ -1,0 +1,23 @@
+{
+  "name": "use-inicis",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "keywords": [
+    "react",
+    "hook",
+    "inicis"
+  ],
+  "description": "INICIS payment is solved using React hook.",
+  "scripts": {
+    "build": "tsc"
+  },
+  "bugs": "https://github.com/doong-jo/use-inicis/issues",
+  "dependencies": {
+    "react": "^16.13.1"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.49"
+  },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
+}
